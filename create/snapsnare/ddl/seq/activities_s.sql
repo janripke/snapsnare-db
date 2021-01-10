@@ -1,0 +1,1 @@
+create sequence activities_s;
