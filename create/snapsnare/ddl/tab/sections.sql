@@ -6,6 +6,7 @@ CREATE TABLE sections
     name       varchar(255)        not null,
     endpoint   varchar(255)        not null,
     url        varchar(255)        not null,
+    nav_ind    integer default 1,
     active     integer default 1,
     created_at timestamp           not null,
     created_by varchar(45)         not null,
