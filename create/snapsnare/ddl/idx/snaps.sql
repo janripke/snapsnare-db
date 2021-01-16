@@ -1,0 +1,1 @@
+create index snp_usr_id_idx on snaps (usr_id);
