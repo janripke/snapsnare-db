@@ -1,0 +1,2 @@
+insert into snaps (uuid, usr_id, title, chord_schema) values ('a4768895-0246-4fc8-a421-e1569d816586', get_user_id('reggae4all@hotmail.com'), 'Test 2', 'Amin/Amin/Fmaj7/ 3x Fmaj7 1xbes maj 7');
+insert into snaps (uuid, usr_id, title, chord_schema) values ('b4e749c9-15df-45c3-8384-8803c3fadc15', get_user_id('reggae4all@hotmail.com'), 'Covid punk (chaos) test1', 'A-D-Cis-(A-A) // E-D-E-D-E-D-E-E')
