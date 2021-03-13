@@ -1,6 +1,6 @@
 {
   "name": "snapsnare-db",
   "repository": "https://github.com/janripke/snapsnare-db.git",
-  "technology": "python"
+  "technology": "sql"
 }
 
