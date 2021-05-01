@@ -1,0 +1,1 @@
+create sequence section_components_s;
