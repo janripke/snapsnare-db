@@ -1,0 +1,1 @@
+update instruments set name='guitar' where name='gitar';

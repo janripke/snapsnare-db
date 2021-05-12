@@ -1,0 +1,1 @@
+create sequence genres_s;

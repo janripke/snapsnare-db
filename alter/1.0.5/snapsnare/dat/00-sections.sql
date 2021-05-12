@@ -1,0 +1,1 @@
+insert into sections(uuid, name, endpoint, url, rle_id, nav_ind) values (uuid_generate_v4(), 'Mijn samples', 'snaps', '/snaps', get_role_id('admin'), 0);
