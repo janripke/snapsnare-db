@@ -5,6 +5,7 @@ CREATE TABLE files
     usr_id     integer             not null,
     asset      varchar(255),
     filename   varchar(255)        not null,
+    uploadname varchar(255),
     active     integer default 1,
     created_at timestamp           not null,
     created_by varchar(45)         not null,
