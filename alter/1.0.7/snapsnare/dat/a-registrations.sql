@@ -1,0 +1,1 @@
+insert into registrations(uuid, username, password, first_name, last_name, state, rle_id) values (uuid_generate_v4(), 'admin@snapsnare.org', '8c9a5d934f76bb380180ba65ad097a23cc796ce435ec1e88b0acd8571761fbf9','Snapsnare', 'Moderator', 'approved', get_role_id('admin'));

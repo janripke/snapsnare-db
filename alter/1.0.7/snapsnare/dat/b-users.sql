@@ -1,0 +1,1 @@
+insert into users(uuid, username, password, first_name, last_name, rle_id, rgn_id) values (uuid_generate_v4(), 'admin@snapsnare.org', '8c9a5d934f76bb380180ba65ad097a23cc796ce435ec1e88b0acd8571761fbf9', 'Snapsnare', 'Moderator', get_role_id('admin'), get_registration_id('admin@snapsnare.org'));

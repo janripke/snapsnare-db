@@ -1,0 +1,2 @@
+alter table fragment_assignments add constraint fat_fmt_id foreign key (fmt_id) references fragments (id);
+alter table fragment_assignments add constraint fat_pce_id foreign key (pce_id) references principles (id);

@@ -1,0 +1,3 @@
+insert into fragment_assignments(uuid, fmt_id, pce_id) values (uuid_generate_v4(), get_fragment_id('Home', 'activities'), get_principle_id('admin', 'get'));
+insert into fragment_assignments(uuid, fmt_id, pce_id) values (uuid_generate_v4(), get_fragment_id('Home', 'activities'), get_principle_id('moderator', 'get-owner'));
+insert into fragment_assignments(uuid, fmt_id, pce_id) values (uuid_generate_v4(), get_fragment_id('Home', 'activities'), get_principle_id('any', 'list'));
