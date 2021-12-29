@@ -1,0 +1,1 @@
+update activities set usr_id=get_user_id('admin@snapsnare.org') where usr_id=get_user_id('admin@computersnaar.nl')
