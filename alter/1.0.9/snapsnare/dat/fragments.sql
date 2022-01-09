@@ -1,0 +1,2 @@
+insert into fragments(uuid, stn_id, cpt_id, active) values (uuid_generate_v4(), get_section_id('Development'), get_component_id('activities'), 1);
+insert into fragments(uuid, stn_id, cpt_id, active) values (uuid_generate_v4(), get_section_id('Development'), get_component_id('posting'), 1);

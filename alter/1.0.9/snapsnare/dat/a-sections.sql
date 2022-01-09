@@ -1,0 +1,1 @@
+insert into sections(uuid, name, endpoint, url, rle_id) values (uuid_generate_v4(), 'Development', 'index', '/', get_role_id('developer'));
