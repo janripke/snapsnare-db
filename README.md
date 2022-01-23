@@ -1,13 +1,13 @@
 # Introduction 
-snapsnare datastore, used to store the snapsnare data
+snapsnare-db, the datastore, used to store the snapsnare data.
 
 
 # Getting Started
 The snapsnare web application depends on this project and uses it as a backend for storing and retrieving data.
 
-## Installation 
+## Installation
 It is assumed you have installed a postgresql server directly or through docker on your local machine.
-In this paragraph the installation of the snapsnare database is described. 
+In this paragraph the installation of the snapsnare datastore (database) is described. 
 
 ### create the snapsnare database
 This section describes the actual creation of the snapsnare database in the postgresql server
@@ -77,7 +77,7 @@ To be more exact under ~/.noora/credentials.json
 create the credentials.json in ~/.noora folder:
 paste the following into this file:
 
-```python
+```json
 {
   "snapsnare-db": {
     "postgresql_users": [
@@ -101,15 +101,16 @@ https://github.com/janripke/snapsnare-db.git
 Clone or update this repository for the latest version of the snapsnare database.
 Execute the following command to clone the repository:
 
-```
+```shell
 $ git clone https://github.com/janripke/snapsnare-db.git
 ```
 
 ### install the snapsnare database
 Execute the following command to install the snapsnare database in your local postgresql server 
 
-```
+```shell
 $ cd snapsnare-db
 $ mynoora recreate
 ```
+
 
